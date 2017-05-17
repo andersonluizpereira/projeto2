@@ -1,0 +1,23 @@
+<p>
+  ng-for works!
+</p>
+
+<!--<ul *ngFor="let nome of nomes">
+<li>nome da pessoa é: {{nome}} </li>
+</ul>
+
+
+<ul *ngFor="let nome of nomes, let i= index">
+<li>nome da pessoa é: {{nome}}, está na posição {{i + 1}} </li>
+</ul>-->
+
+<ul *ngFor="let nome of nomes, let i= index">
+<li>nome da pessoa é: {{nome.nome}} com id {{nome.id}} , está
+na posição {{i + 1}} </li>
+</ul>
+
+<button (click)="atualizar()">Atualizar</button>
+<ul *ngFor="let nome of nomes, let i = index; meuSave">
+<li>nome da pessoa é: {{nome.nome}} com id {{nome.id}}, está n
+a posição {{i + 1}} </li>
+</ul>
