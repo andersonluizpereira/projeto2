@@ -17,6 +17,7 @@ import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
 import { EventbindingComponent } from './eventbinding/eventbinding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { FormularioComponentComponent } from './formulario/formulario-component/formulario-component.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     NgStyleComponent,
     NgContentComponent,
     EventbindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    FormularioComponentComponent
   ],
   imports: [
     BrowserModule,
