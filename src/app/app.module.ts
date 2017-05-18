@@ -14,6 +14,9 @@ import { NgSwitchCaseComponent } from './ng-switch-case/ng-switch-case.component
 import { NgForComponent } from './ng-for/ng-for.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgStyleComponent } from './ng-style/ng-style.component';
+import { NgContentComponent } from './ng-content/ng-content.component';
+import { EventbindingComponent } from './eventbinding/eventbinding.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { NgStyleComponent } from './ng-style/ng-style.component';
     NgSwitchCaseComponent,
     NgForComponent,
     NgClassComponent,
-    NgStyleComponent
+    NgStyleComponent,
+    NgContentComponent,
+    EventbindingComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,
