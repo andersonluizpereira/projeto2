@@ -19,6 +19,8 @@ import { EventbindingComponent } from './eventbinding/eventbinding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { FormularioComponentComponent } from './formulario/formulario-component/formulario-component.component';
 
+import { DiComponent } from './di/di.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +36,8 @@ import { FormularioComponentComponent } from './formulario/formulario-component/
     NgContentComponent,
     EventbindingComponent,
     EventBindingComponent,
-    FormularioComponentComponent
+    FormularioComponentComponent,
+    DiComponent
   ],
   imports: [
     BrowserModule,
